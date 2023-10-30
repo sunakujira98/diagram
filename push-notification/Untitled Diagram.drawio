@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:25:21.589Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0" etag="g1SwxeWwvX_Fo2M3DE87" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T09:24:25.901Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0" etag="h9IDnqk5zZo3nJugfweB" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1509" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Existing API.&lt;br&gt;Eg : Like / Comment / Subscribe" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="30" y="70" width="130" height="50" as="geometry" />
+          <mxGeometry x="314" y="70" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
@@ -46,16 +46,27 @@
         <mxCell id="w33jrKx0RvdEpoLvv29Q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-28" target="w33jrKx0RvdEpoLvv29Q-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-28" target="w33jrKx0RvdEpoLvv29Q-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-28" value="Store notification to firebase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="35" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-30" target="w33jrKx0RvdEpoLvv29Q-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w33jrKx0RvdEpoLvv29Q-30" value="FE Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-30" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w33jrKx0RvdEpoLvv29Q-31" value="Firebase DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-63" value="Send token for Push notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w33jrKx0RvdEpoLvv29Q-62">
+          <mxGeometry x="0.3736" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-30" value="FE Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-31" value="Firestore DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="384" y="280" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-32" value="Our mongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -73,22 +84,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-38" value="Notification changes ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="240" width="100" height="80" as="geometry" />
+          <mxGeometry x="780" y="230" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-40" target="w33jrKx0RvdEpoLvv29Q-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-40" value="Invalidate queries for notification collection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-42" value="Show notification data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-46" target="w33jrKx0RvdEpoLvv29Q-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-46" value="Read Notification API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="35" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-47" target="w33jrKx0RvdEpoLvv29Q-49">
           <mxGeometry relative="1" as="geometry" />
@@ -97,13 +108,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-47" value="Update mongodb is_read : true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-49" value="Update mongodb is_read : true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w33jrKx0RvdEpoLvv29Q-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-49" target="w33jrKx0RvdEpoLvv29Q-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-59" value="Firebase Cloud Messaging" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="395" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-66" target="w33jrKx0RvdEpoLvv29Q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-66" value="Send notification via FCM admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w33jrKx0RvdEpoLvv29Q-30" target="w33jrKx0RvdEpoLvv29Q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w33jrKx0RvdEpoLvv29Q-70" value="Listen to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w33jrKx0RvdEpoLvv29Q-69">
+          <mxGeometry x="-0.0052" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
